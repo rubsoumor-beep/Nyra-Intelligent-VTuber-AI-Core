@@ -1,18 +1,21 @@
 # Segredos - nunca commitar
 .env
 .env.*
+!.env.example
 
-# Dados gerados em runtime (contem informacoes pessoais sobre o Rubens)
+# Dados gerados em runtime
 memory.json
 Backend/memory.json
 
-# Dependencias
+# Dependências
 node_modules/
 
 # Logs
 *.log
 npm-debug.log*
 
-# Arquivos de visao/OS
+# Arquivos de visão / temporários
+trigger.txt
+visao.txt
 .DS_Store
 Thumbs.db
